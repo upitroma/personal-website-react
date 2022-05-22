@@ -2,10 +2,11 @@ import { Route, Routes } from 'react-router-dom';
 
 
 import './App.css';
+import TsParticles from './components/TsParticles';
 
 import NavBar from './components/NavBar';
-import TsParticles from './components/TsParticles';
 import Home from './pages/Home';
+import PageNotFound from './pages/PageNotFound';
 
 function App() {
   return (
@@ -14,9 +15,7 @@ function App() {
       <NavBar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        {/* <Route path='/new' element={<NewMeetupsPage/>}/>
-        <Route path='/favorites' element={<FavoritesPage/>}/>
-        <Route path="*" element={<PageNotFound/>} /> */}
+        <Route path="*" element={<PageNotFound/>} />
       </Routes>
       
     </main>

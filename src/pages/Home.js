@@ -2,9 +2,9 @@ function Home() {
   return (
     <main>
       <div className='main-body'>
-        <body className='hello'>
+        <div className='hello'>
           hello world!
-        </body>
+        </div>
       </div>
     </main>
   );

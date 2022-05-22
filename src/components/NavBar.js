@@ -9,9 +9,9 @@ function NavBar(){
             <div className={classes.logo}>wow a navbar</div>
             <nav>
                 <ul>
-                    <li><Link to="/">All Meetups</Link></li>
-                    <li><Link to="/new">New Meetups</Link></li>
-                    <li><Link to="/favorites">New Meetup</Link></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><a href="https://github.com/upitroma/personalWebsite" target="_blank" rel="noreferrer">Github</a></li>
+                    <li><Link to="/contact">Contact</Link></li>
                 </ul>
             </nav>
         </header>
