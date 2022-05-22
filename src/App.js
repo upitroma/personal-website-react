@@ -6,6 +6,7 @@ import TsParticles from './components/TsParticles';
 
 import NavBar from './components/NavBar';
 import Home from './pages/Home';
+import Contact from './pages/Contact';
 import PageNotFound from './pages/PageNotFound';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <NavBar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
+        <Route path='/contact' element={<Contact/>}/>
         <Route path="*" element={<PageNotFound/>} />
       </Routes>
       
